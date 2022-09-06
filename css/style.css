@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+img {
+  vertical-align: top;
+}
+
+body,
+html {
+  height: 100%;
+  line-height: 1;
+}
+
+/* ================== */
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background: #fff;
+  color: #242121;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.29;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.none {
+  display: none !important;
+}
+
+[class*=__container] {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+
+.header {
+  background: url("../img/header-bg.jpg") 0 0 no-repeat;
+}
+.header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 45px;
+}
+.header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: calc(100vh - 108px);
+}
+.header__title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 200px;
+  line-height: 1.17;
+  letter-spacing: 0.6px;
+  color: #0d302c;
+  margin-top: auto;
+}
+.header__subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.6px;
+  color: #000000;
+  margin-bottom: auto;
+}
+.header__icon {
+  margin-bottom: 93px;
+}
+
+.logo {
+  margin-right: 185px;
+}
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 45px;
+     -moz-column-gap: 45px;
+          column-gap: 45px;
+}
+.menu__link {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.6px;
+  color: #fff;
+}
