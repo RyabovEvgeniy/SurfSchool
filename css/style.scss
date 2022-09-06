@@ -1,0 +1,29 @@
+@import "_null";
+
+// Основные CSS настройки страницы
+body {
+	// font-family: "Raleway", sans-serif;
+	font-family: "Roboto Condensed", sans-serif;
+	background: #fff;
+	color: #242121;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.29;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+.main {
+	flex: 1 1 auto;
+}
+.none {
+	display: none !important;
+}
+[class*="__container"] {
+	max-width: 1220px;
+	margin: 0 auto;
+	padding: 0px 10px;
+}
