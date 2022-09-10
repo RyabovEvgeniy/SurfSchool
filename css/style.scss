@@ -78,6 +78,7 @@ body {
 	letter-spacing: 0.6px;
 	color: #01353e;
 	padding-bottom: 32px;
+	text-transform: uppercase;
 	position: relative;
 	&::after {
 		content: "";
@@ -163,7 +164,7 @@ body {
 		max-width: 891px;
 		margin: 0 auto;
 		margin-bottom: 96px;
-		text-transform: uppercase;
+		// text-transform: uppercase;
 	}
 
 	// .about__inner
@@ -198,5 +199,144 @@ body {
 
 	&__text--mb49 {
 		margin-bottom: 49px;
+	}
+}
+
+// Features
+.features {
+	background-color: #f8f8f8;
+	padding: 200px 0;
+
+	// .features__container
+
+	&__container {
+	}
+
+	// .features__title
+
+	&__title {
+		max-width: 608px;
+		margin: 0 auto;
+		margin-bottom: 100px;
+		&.title {
+			&::after {
+				right: -35px;
+			}
+		}
+	}
+
+	// .features__items
+
+	&__items {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 103px;
+	}
+
+	// .features__item
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		max-width: 350px;
+	}
+
+	// .features__item-top
+
+	&__item-top {
+		display: flex;
+		flex: none;
+		column-gap: 10px;
+		align-items: center;
+		margin-bottom: 15px;
+	}
+
+	// .features__item-title
+
+	&__item-title {
+		font-weight: 400;
+		font-size: 24px;
+		letter-spacing: 0.6px;
+	}
+
+	// .features__item-title--res
+
+	&__item-title--res {
+		line-height: 0.75;
+	}
+
+	// .features__item-title--fly
+
+	&__item-title--fly {
+		line-height: 1.17;
+	}
+
+	// .features__item-title--edu
+
+	&__item-title--edu {
+		line-height: 1.17;
+	}
+	// .features__item-text
+
+	&__item-text {
+		letter-spacing: 0.6px;
+	}
+
+	// .features__inner
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	// .features__info
+
+	&__info {
+		width: 350px;
+		flex: none;
+	}
+
+	// .features__info-item
+
+	&__info-item {
+		padding-top: 8px;
+		position: relative;
+		&:not(:last-child) {
+			margin-bottom: 10px;
+		}
+		svg {
+			display: block;
+			margin-bottom: 1px;
+		}
+		// &::before {
+		// 	content: "";
+		// 	background-image: url(../img/border-info.svg);
+		// 	width: 200px;
+		// 	height: 15px;
+		// 	position: absolute;
+		// 	top: -15px;
+		// 	left: 0;
+		// }
+		span {
+			display: block;
+			position: absolute;
+			right: 45px;
+			top: 8px;
+			font-weight: 400;
+			font-size: 24px;
+			line-height: 0.75;
+		}
+	}
+
+	// .features__text
+
+	&__text {
+		max-width: 600px;
+		p {
+			&:not(:last-child) {
+				margin-bottom: 30px;
+			}
+		}
 	}
 }

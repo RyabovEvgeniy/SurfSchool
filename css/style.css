@@ -123,6 +123,7 @@ body {
   letter-spacing: 0.6px;
   color: #01353e;
   padding-bottom: 32px;
+  text-transform: uppercase;
   position: relative;
 }
 .title::after {
@@ -189,7 +190,6 @@ body {
   max-width: 891px;
   margin: 0 auto;
   margin-bottom: 96px;
-  text-transform: uppercase;
 }
 .about__inner {
   display: -webkit-box;
@@ -218,4 +218,111 @@ body {
 }
 .about__text--mb49 {
   margin-bottom: 49px;
+}
+
+.features {
+  background-color: #f8f8f8;
+  padding: 200px 0;
+}
+.features__title {
+  max-width: 608px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.features__title.title::after {
+  right: -35px;
+}
+.features__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 103px;
+}
+.features__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 350px;
+}
+.features__item-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+.features__item-title {
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.6px;
+}
+.features__item-title--res {
+  line-height: 0.75;
+}
+.features__item-title--fly {
+  line-height: 1.17;
+}
+.features__item-title--edu {
+  line-height: 1.17;
+}
+.features__item-text {
+  letter-spacing: 0.6px;
+}
+.features__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.features__info {
+  width: 350px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+}
+.features__info-item {
+  padding-top: 8px;
+  position: relative;
+}
+.features__info-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.features__info-item svg {
+  display: block;
+  margin-bottom: 1px;
+}
+.features__info-item span {
+  display: block;
+  position: absolute;
+  right: 45px;
+  top: 8px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 0.75;
+}
+.features__text {
+  max-width: 600px;
+}
+.features__text p:not(:last-child) {
+  margin-bottom: 30px;
 }
