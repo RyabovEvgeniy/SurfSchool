@@ -122,7 +122,6 @@ body {
   line-height: 1.16;
   letter-spacing: 0.6px;
   color: #01353e;
-  padding-bottom: 32px;
   text-transform: uppercase;
   position: relative;
 }
@@ -133,8 +132,8 @@ body {
   background-repeat: no-repeat;
   width: 48px;
   height: 85px;
-  bottom: -15px;
-  right: -20px;
+  bottom: -50px;
+  right: -25px;
 }
 
 .header {
@@ -324,5 +323,24 @@ body {
   max-width: 600px;
 }
 .features__text p:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.benefits {
+  background: url("../img/benefits-bg.jpg") right top/50% no-repeat;
+}
+.benefits__inner {
+  padding: 200px 0 147px;
+  max-width: 511px;
+  margin-right: auto;
+}
+.benefits__title {
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.benefits__title::after {
+  right: -45px;
+}
+.benefits__text p:not(:last-child) {
   margin-bottom: 30px;
 }
