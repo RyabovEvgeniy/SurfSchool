@@ -484,3 +484,78 @@ body {
   right: -147px;
   bottom: 62px;
 }
+.blog {
+  padding: 0 0 200px;
+  text-align: center;
+}
+.blog__title {
+  max-width: 131px;
+  margin: 0 auto;
+  margin-bottom: 230px;
+}
+.blog__title::after {
+  right: -50px;
+}
+.blog__inner {
+  background: url("../img/blog-bg.jpg") 0 0 no-repeat;
+  padding: 314px 0 369px;
+  position: relative;
+}
+.blog__inner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #242121;
+  opacity: 0.5;
+  z-index: 1;
+}
+.blog__slider {
+  max-width: 600px;
+  position: absolute;
+  right: 15%;
+  z-index: 2;
+}
+.blog__item {
+  text-align: left;
+}
+.blog__item-title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.17;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #fff;
+  max-width: 600px;
+}
+.blog__item-text {
+  letter-spacing: 0.6px;
+  color: #fff;
+}
+
+.slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 277px;
+  left: -142px;
+}
+
+.slick-dots li:not(:last-child) {
+  margin-right: 15px;
+}
+
+.slick-dots button {
+  background-color: #fff;
+  font-size: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.slick-active button {
+  background-color: #00b2a0;
+}
