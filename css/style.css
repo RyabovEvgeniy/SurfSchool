@@ -668,3 +668,11 @@ body {
   font-size: 18px;
   line-height: 1.22;
 }
+
+.map {
+  padding: 200px 0;
+}
+.map__img {
+  background: url("../img/map.jpg") center center/cover no-repeat;
+  height: 640px;
+}

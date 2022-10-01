@@ -793,3 +793,21 @@ body {
 		}
 	}
 }
+
+// Map
+.map {
+	padding: 200px 0;
+
+	// .map__container
+
+	&__container {
+	}
+
+	// .map__img
+
+	&__img {
+		background: url('../img/map.jpg') center center / cover no-repeat;
+		height: 640px;
+	}
+}
+
