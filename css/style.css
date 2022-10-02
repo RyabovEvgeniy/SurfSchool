@@ -435,6 +435,9 @@ body {
 .portfolio__video-link {
   cursor: pointer;
 }
+.portfolio__video-link:hover svg path {
+  fill: #ccc;
+}
 .portfolio__numbers {
   max-width: 696px;
   margin: 0 auto;

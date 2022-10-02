@@ -414,7 +414,7 @@ body {
 		text-transform: uppercase;
 		background-color: transparent;
 		cursor: pointer;
-		transition: all .3s;
+		transition: all 0.3s;
 		&:not(:last-child) {
 			margin-right: 20px;
 		}
@@ -483,6 +483,13 @@ body {
 
 	&__video-link {
 		cursor: pointer;
+		&:hover {
+			svg {
+				path {
+					fill: #ccc;
+				}
+			}
+		}
 	}
 
 	// .portfolio__numbers
