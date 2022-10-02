@@ -864,3 +864,9 @@ body {
 .connection__social-link:hover {
   color: #00B2A0;
 }
+
+.footer {
+  background: #00B2A0;
+  text-align: center;
+  padding: 69px 0;
+}
