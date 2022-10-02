@@ -676,3 +676,191 @@ body {
   background: url("../img/map.jpg") center center/cover no-repeat;
   height: 640px;
 }
+
+.connection {
+  padding: 0 0 200px;
+  text-align: center;
+}
+.connection__title {
+  max-width: 510px;
+  margin: 0px auto;
+  margin-bottom: 243px;
+}
+.connection__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 31px;
+     -moz-column-gap: 31px;
+          column-gap: 31px;
+  margin-bottom: 200px;
+}
+.connection__form {
+  min-width: 570px;
+}
+.connection__form-input {
+  display: block;
+  width: 100%;
+  padding: 18px 5px;
+  margin-bottom: 18px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  color: #00b2a0;
+  outline: none;
+  border-bottom: 2px solid #dadada;
+}
+.connection__form-input::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  color: #00b2a0;
+}
+.connection__form-input::-moz-placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  color: #00b2a0;
+}
+.connection__form-input:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  color: #00b2a0;
+}
+.connection__form-input::-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  color: #00b2a0;
+}
+.connection__form-input::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  color: #00b2a0;
+}
+.connection__form-textarea {
+  display: block;
+  min-width: 100%;
+  min-height: 156px;
+  padding: 18px 5px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  color: #00b2a0;
+  resize: none;
+  outline: none;
+  border-bottom: 2px solid #dadada;
+  margin-bottom: 73px;
+}
+.connection__form-textarea::-webkit-input-placeholder {
+  max-width: 260px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  color: #00b2a0;
+}
+.connection__form-textarea::-moz-placeholder {
+  max-width: 260px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  color: #00b2a0;
+}
+.connection__form-textarea:-ms-input-placeholder {
+  max-width: 260px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  color: #00b2a0;
+}
+.connection__form-textarea::-ms-input-placeholder {
+  max-width: 260px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  color: #00b2a0;
+}
+.connection__form-textarea::placeholder {
+  max-width: 260px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  color: #00b2a0;
+}
+.connection__form-button {
+  text-transform: uppercase;
+  padding: 24px 111px 23px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 0.75;
+  letter-spacing: 0.6px;
+  background-color: transparent;
+  border: 1px solid #c4c4c4;
+  cursor: pointer;
+}
+.connection__contact {
+  background: #f8f8f8;
+  padding: 49px 221px 71px 52px;
+}
+.connection__contact-list {
+  text-align: left;
+}
+.connection__contact-item {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0.6px;
+  max-width: 327px;
+}
+.connection__contact-item:not(:last-child) {
+  margin-bottom: 65px;
+}
+.connection__social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.connection__social-item:not(:last-child) {
+  margin-right: 10px;
+}
+.connection__social-link {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 0.75;
+  letter-spacing: 0.6px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.connection__social-link:hover {
+  color: #00B2A0;
+}
