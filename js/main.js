@@ -3,4 +3,6 @@ $(function() {
 		dots: true,
 		arrows: false,
 	});
+
+	var mixer = mixitup('.portfolio__gallery');
 });

@@ -204,39 +204,37 @@
 				<div class="portfolio__container">
 					<h2 class="portfolio__title title">ГАЛЕРЕЯ</h2>
 					<div class="portfolio__filter">
-						<button class="portfolio__btn">ВСЕ</button>
-						<button class="portfolio__btn">ТУРИСТЫ</button>
-						<button class="portfolio__btn">ПРИРОДА</button>
-						<button class="portfolio__btn">ПРОФИ</button>
+						<button class="portfolio__btn" data-filter="all">ВСЕ</button>
+						<button class="portfolio__btn" data-filter=".category-a">ТУРИСТЫ</button>
+						<button class="portfolio__btn" data-filter=".category-b">ПРИРОДА</button>
+						<button class="portfolio__btn" data-filter=".category-c">ПРОФИ</button>
 					</div>
-					<div class="portfolio__gallery">
-						<div class="portfolio__gallery-item">
+					<div class="portfolio__gallery" >
+						<div class="portfolio__gallery-item mix category-a">
 							<img src="img/portfolio/1.jpg" alt="portfolio image">
 							<a href="#" class="portfolio__gallery-link"></a>
 						</div>
-						<div class="portfolio__gallery-item">
-							<img src="img/portfolio/2.jpg" alt="portfolio image">
-							<img src="img/portfolio/3.jpg" alt="portfolio image">
-							<a href="#" class="portfolio__gallery-link"></a>
-						</div>
-						<!-- <div class="portfolio__gallery-item">
-							<img src="img/portfolio/3.jpg" alt="portfolio image">
-							<a href="#" class="portfolio__gallery-link"></a>
-						</div> -->
-						<div class="portfolio__gallery-item">
+						<div class="portfolio__gallery-item mix category-a category-b">
 							<img src="img/portfolio/4.jpg" alt="portfolio image">
+							<a href="#" class="portfolio__gallery-link"></a>
+						</div>
+						<div class="portfolio__gallery-item mix category-b">
 							<img src="img/portfolio/5.jpg" alt="portfolio image">
 							<a href="#" class="portfolio__gallery-link"></a>
 						</div>
-						<!-- <div class="portfolio__gallery-item">
-							<img src="img/portfolio/5.jpg" alt="portfolio image">
+						<div class="portfolio__gallery-item mix category-b category-c">
+							<img src="img/portfolio/2.jpg" alt="portfolio image">
 							<a href="#" class="portfolio__gallery-link"></a>
-						</div> -->
-						<div class="portfolio__gallery-item">
+						</div>
+						<div class="portfolio__gallery-item mix category-c">
+							<img src="img/portfolio/3.jpg" alt="portfolio image">
+							<a href="#" class="portfolio__gallery-link"></a>
+						</div>
+						<div class="portfolio__gallery-item mix category-a category-c">
 							<img src="img/portfolio/6.jpg" alt="portfolio image">
 							<a href="#" class="portfolio__gallery-link"></a>
 						</div>
-					</div>
+				</div>
 					<a href="#" class="portfolio__add">ПОКАЗАТЬ ЕЩЕ</a>
 				</div>
 				<blockquote class="blockquote">
@@ -486,6 +484,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
 		integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
 		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="js/mixitup.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 

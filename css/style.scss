@@ -414,29 +414,28 @@ body {
 		text-transform: uppercase;
 		background-color: transparent;
 		cursor: pointer;
+		transition: all .3s;
 		&:not(:last-child) {
 			margin-right: 20px;
+		}
+		&:hover {
+			color: #00b2a0;
 		}
 	}
 
 	// .portfolio__gallery
 
 	&__gallery {
-		column-count: 2;
-		column-gap: 40px;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 40px;
+		margin-bottom: 50px;
 	}
 
 	// .portfolio__gallery-item
 
 	&__gallery-item {
-		margin-bottom: 40px;
 		position: relative;
-		img {
-			display: inline-block;
-			+ img {
-				margin-left: 36px;
-			}
-		}
 		&:hover .portfolio__gallery-link {
 			opacity: 0.7;
 		}
@@ -964,14 +963,14 @@ body {
 		letter-spacing: 0.6px;
 		transition: all 0.3s;
 		&:hover {
-			color: #00B2A0;
+			color: #00b2a0;
 		}
 	}
 }
 
 // Footer
 .footer {
-	background: #00B2A0;
+	background: #00b2a0;
 	text-align: center;
 	padding: 69px 0;
 
@@ -990,4 +989,3 @@ body {
 	&__img {
 	}
 }
-
